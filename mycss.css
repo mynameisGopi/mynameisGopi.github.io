@@ -1,4 +1,5 @@
-body { background-color: #78b2f8;
+/*Lab3*/
+body { background-color: #5f0404;
     color: #ffffff;
 font-family: Arial, Verdana, sans-serif;
 font-size: 12pt;
@@ -6,7 +7,7 @@ margin-top: 15pt;
 margin-bottom: 15pt;
 margin-left: 12pt;
 margin-right: 12pt;}
-h1 { background-color: #78b2f8;
+h1 { background-color: #5f0404;
   color: #fcf7f4;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 36pt;}
@@ -16,12 +17,8 @@ font-size: 27pt;}
 h4 {color: #000000;
     font-family: Georgia, Arial, sans-serif;
 font-size: 18pt;}
-nav { background-color: #d7d7d7;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-float: right; width: 150px}
-nav ul {list-style-type: none; 
-padding: 10px;}
-p {color: #f9f4fb;
+
+a {color: #f9f4fb;
     font-family: Arial, Helvetica, sans-serif;}
 a {color: #eaeaea;
     font-family: Georgia, Arial, sans-serif;}
@@ -43,5 +40,86 @@ color:blueviolet}
             background-color: #d1ecff;
             border: 3px dashed #000000;
             padding: 5px;}
-footer { color: #ffffff;
-margin-right: 165px; }
+footer { color: #ffffff;}
+
+
+/* Lab 5 - Part B - Image*/
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(3);
+    transform:scale(3)
+}
+
+/* Lab 5 - Part C - Creating Navigation Menu*/
+
+/*navbar container*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*links inside the navbar*/
+.navbar a{
+    float:left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*The container div needed to position the dropdown content */
+.dropdown {
+    float:left;
+    overflow: hidden;
+}
+
+/*Dropdown Button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #333;
+    font-family: inherit;
+    margin: 0;
+}
+
+/*Hover*/
+.navbar a:hover, .dropdown.hover .dropbtn {
+    background-color: red;
+}
+
+/*Dropdown content (Hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+    z-index: 1;
+}
+
+/*Links inside the dropdown*/
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/*Change color of dropdown links on hover*/
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
