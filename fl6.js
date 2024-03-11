@@ -1,4 +1,4 @@
-/*2. Handling Forms with JS (Part A-C)*/
+/*2. Handling Forms with JS (Practice)*/
 
 window.onload=function(){
     var user = document.getElementById("name");
@@ -14,6 +14,11 @@ function inputHandler()
     }
 
 
+
+/*Lab 6 - Forms (Part C) */
+
+
+/* The following codes is to assign each user input/element a variable. */
 function myfunc(event) {
     event.preventDefault();
     var name = document.getElementById("name").value;
@@ -24,7 +29,7 @@ function myfunc(event) {
     var bigmsg = document.getElementById("bigmsg").value;
 
     
-
+/*The following code is to send each user input/variable to the localstorage. This occurs when the user click the "submit" button at the bottom of the webpage.*/
     localStorage.setItem('ls_name', name);
     localStorage.setItem('ls_email', email);
     localStorage.setItem('ls_phone', phone);
@@ -34,7 +39,7 @@ function myfunc(event) {
 
 }
 
-
+/*This code is to enable the user to reset the form (emptying all text field) when clicking the reset button.*/ 
 function clearForm() {
     document.getElementById('myform').reset();
 }
