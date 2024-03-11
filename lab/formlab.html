@@ -1,0 +1,55 @@
+<!--1. FORMS AND FORM ELEMENTS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Let's Talk</title>
+</head>
+
+<body>
+
+<!--a)Forms-->
+    <form id = myform onsubmit="myfunc(event)">
+        <h1>Let's Talk</h1> <br> 
+        <h3>Want to reach out? Fill out the following form and I'll get back to you!</h2>
+        <div>
+            <label>Full Name</label>
+            <input id="name" type="text" required /> 
+        </div>
+        <div>  
+            <label>Email</label>
+            <input type="email" id="email" size="20" required />
+        </div>
+        <div>
+            <label>Phone Number</label>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+        </div>
+
+            <legend>What is your question/inquiry about? </legend>
+        <div class="check_box">
+            <input type="checkbox" size="20" checked> General
+            <input type="checkbox" size="20"> Business Collab
+            <input type="checkbox" size="20"> WebDev Inquiries
+        </div>
+        <div>
+            <legend>Enter your message: </legend>
+            <textarea id= bigmsg name="message" rows="10" cols="30"></textarea>
+        </div>
+        <div>
+            <label>Join my mailing list?</label>
+            <input id = mailing type="radio" value="A" name="choice" /> 
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+            <button type="button" onclick="clearForm()">Clear/Reset</button>
+        </div>
+    </form>
+
+<script src="fl6.js" ></script>
+
+
+</body>
+</html>

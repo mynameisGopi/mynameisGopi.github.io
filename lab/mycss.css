@@ -123,3 +123,8 @@ img:hover {
 .dropdown:hover .dropdown-content {
     display:block;
 }
+
+.username {
+    display: flex;
+    
+}

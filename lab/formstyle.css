@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5f0404;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+input {
+    margin: 2px;
+    padding: .5em;
+    border: solid 1px #999
+}
+
+input[type="email"], input[type="text"] {
+    width: 15em;
+}
+
+textarea {
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 1px #999
+}
+
+label {
+    display: block;
+    margin-top: auto;
+}
+
+.check_box {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: justify;
+}
+
+legend {
+    margin-top: 1em;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+input[type="radio"] {
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+
+input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+
+input[type="submit"], button {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
