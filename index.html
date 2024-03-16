@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>My Education</title>
+    <title>Official Page of Gopi</title>
     <meta charset="utf-8">
     <link href="mycss.css" rel="stylesheet">
     </head>
@@ -10,95 +10,51 @@
         <script src="lab5.js"></script>
         <div id="wrapper">
         <header>
-            <h1>Gopi Thillairasa's Portfolio</h1>
+            <h1>About Me</h1>
         </header>
 
-<!--Lab 5: Part A - Creating a User Prompt-->
-        <div class="Welcome User">
-            <button onclick="myName()">Welcome User</button>
-            <a style="margin-bottom: auto"></a>
-        </div>
-
-<!--Lab 5: Part C - Creating first menu-->
+<!--Creating NAV Bar-->
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#aboutme">About Me</a>
+        <a href="index.html">Home</a>
+        <a href="myabout.html">About Me</a>
         <a href="formlab.html">Let's Talk</a>
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">My Résumé
             <i class="lab5navbar"></i>
             </button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#">My Experiences</a>|
-                <a href="#">My Projects</a>|
-                <a href="#">My Education</a>| 
-                <a href="#">My Future</a> 
+                <a href="myexperiences.html">My Experiences</a>|
+                <a href="myprojects.html">My Projects</a>|
+                <a href="myeducation.html">My Education</a>| 
+                <a href="myfuture.html">My Future</a> 
                 <a href="https://www.linkedin.com/in/gopi-thillairasa-6b582b211/">My LinkedIN</a>
                 <a href="https://www.instagram.com/">My Instagram</a>
             </div>
         </div>
     </div>
 
-<!--Lab 5: Part B - Adding a Clickable Image-->
-        <a href="index.html">
-            <img align="right" src="Gopisurenthar Thillairasa Window.jpg" 
-            alt= "My Image"
-
-        style="width:50px;height:100px;"></a>
-        <section>
-
-
-        <h2> 
-        My Education
-        </h2>
-        <article>
-            <header><h4>Toronto Metropolitan University</h4></header>
-            <em>B.Comm in Business Technology Management</em>
-            <time datetime="2020">(2020-Present)</time>
-            <p>Currently, I am pursing my Bachelors of Commerce degree in Business Technology Management at Toronto Metropolitan University (formerly Ryerson). In the span of 4 years, there were several interesting course that I took which still intrigues me till this day. Below the description, I have listed one of them. </p>
-            <ul>
-                <li>ITM780: Web Development</li>
-                <p>Of course, this course is teaching me the basics of web development, but has also inspired me to take web development up further. <br>Thanks to this course, I will learn new languages, including JS, HTML and CSS; something which I can add to my skillset</p>
-                <li>ITM618: BI and Analytics</li>
-                <li>ITM750: IS Project Management</li>
-            </ul>
-        </article>
-        <article>
-            <header><h4>Pine Ridge Secondary School</h4></header>
-            <em>High School</em>
-            <time datetime="2016">(2016-2020)</time>
-            <p>I attended Pine Ridge Secondary School to complete my OSSD. This is located in Pickering, Ontario.</p>
-        </article>
-        <article>
-            <header><h4>Awards achieved</h4></header>
-            <ol>
-                <li>OSSD: Honours List</li>
-                <li>Top 10% Engaged Student at TMU</li>
-                <li>TRSM Badges in Python, R, and Power BI</li>
-            </ol>
-        </article>
-        <article>
-            <header><h4>Leadership and Volunteer Activities</h4></header> 
-            <em>Corporate Relations Associate (TSUS)</em>
-            <time datetime="2024">(Jan 2024-Present)</time>
-            <br>
-            <br>
-            <em>Brand Ambassador (TAP/TRSS)</em>
-            <time datetime="2021">(Oct 2021-Jan 2022)</time>
-        </article>
-        <article>
-            <header><h4>Notable Links</h4></header>
-            <div class="div1">
-            <a href="https://ca.badgr.com/public/assertions/ui0yPfkNQYaRFpKN9Dvgjg?action=download"> Top 10% Engaged Student at TMU</a>
-            </div>
-            <div class="div2">
-                <a href="https://www.linkedin.com/company/the-start-up-society-tmu/?originalSubdomain=ca"> Official TSUS LinkedIN page</a>
-            </div>
-        </article>
-        </section>
+<!--Adding the Home page -->
+<div class="main">
+    <div class="main__container">
+        <div class="main__content">
+            <p>Hi, my name is</p>
+            <h1>Gopi Thillairasa</h1>
+            <p>Welcome to my page!</p>
+        </div>
+        <div class="home_description">
+            <p> <em>"I'm a Toronto-based IT student with a solid foundation in customer service. 
+            I am thrilled to apply my academic background, analytical skills and passion for problem solving
+            to drive impactful solutions across diverse domains.""
+            </em>
+            </p>
+            <p>Click on the links on the NAV bar above to explore more about me.</p>
+        </div>
+        <div class="main__img--container">
+            <!--<img src="images/Gopisurenthar Thillairasa Window.jpg" alt="mainpic" id="main__img"-->
+        </div>
+    </div>
+</div>
         <footer>
             <br>Copyright &copy; Gopi Thillairasa
         </footer>
-    </div>
-    </body>
 </html>

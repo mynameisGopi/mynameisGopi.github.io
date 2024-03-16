@@ -7,21 +7,21 @@ margin-top: 15pt;
 margin-bottom: 15pt;
 margin-left: 12pt;
 margin-right: 12pt;}
-h1 { background-color: #5f0404;
+h1 {
   color: #fcf7f4;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 36pt;}
 h2 { color: #e6e4e1;
-font-family: Georgia, Arial, sans-serif; 
+font-family: Arial, Helvetica, sans-serif; 
 font-size: 27pt;}
 h4 {color: #000000;
-    font-family: Georgia, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 font-size: 18pt;}
 
 a {color: #f9f4fb;
     font-family: Arial, Helvetica, sans-serif;}
 a {color: #eaeaea;
-    font-family: Georgia, Arial, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;}
 a:hover {text-decoration: none;
 color: #000066;}
 a:active {text-decoration: double;
@@ -43,17 +43,7 @@ color:blueviolet}
 footer { color: #ffffff;}
 
 
-/* Lab 5 - Part B - Image*/
-img {
-    transition:transform 0.25s ease;
-}
-
-img:hover {
-    -webkit-transform:scale(3);
-    transform:scale(3)
-}
-
-/* Lab 5 - Part C - Creating Navigation Menu*/
+/*Creating Navigation Menu*/
 
 /*navbar container*/
 .navbar {
@@ -124,7 +114,81 @@ img:hover {
     display:block;
 }
 
-.username {
+/* The Home Page */
+
+.main {
+    background-color: #141414;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.main__content {
+    font-size: 30px;
+    margin-top: 20%;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-decoration-color: transparent;
+    text-align: center;
+
+}
+
+.main__img--container {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    position: absolute;
+    display: block;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
+    top: 0;
+    left: 0; 
+}
+
+/* About Me page*/
+#aboutme {
+    padding: 80px 0;
+    color: #fff;
+}
+.row_aboutme {
     display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.column1_aboutme {
+    flex-basis: 25%;
     
+}
+.column1_aboutme img {
+    width: 100%;
+    border-radius: 15px;
+}
+.column2_aboutme{
+    flex-basis: 70%;
+}
+
+.sub_title{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
 }
