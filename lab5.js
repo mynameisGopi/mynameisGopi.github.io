@@ -33,3 +33,5 @@ function mOut(element) {
     some_tag.innerHTML = "Mouse Over Me";
     some_tag.style.color = "orange";
 }
+
+/* Resize Widget */
