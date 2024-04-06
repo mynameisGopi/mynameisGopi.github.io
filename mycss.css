@@ -1,5 +1,5 @@
 /*Lab3*/
-body { background-color: #5f0404;
+body { background-color: #9e6ed8;
     color: #ffffff;
 font-family: Arial, Verdana, sans-serif;
 font-size: 12pt;
@@ -82,7 +82,7 @@ footer { color: #ffffff;}
 
 /*Hover*/
 .navbar a:hover, .dropdown.hover .dropbtn {
-    background-color: red;
+    background-color: #e1c9ff;
 }
 
 /*Dropdown content (Hidden by default) */
@@ -117,7 +117,7 @@ footer { color: #ffffff;}
 /* The Home Page */
 
 .main {
-    background-color: #141414;
+    background-color: #9e6ed8;
 }
 
 .main__container {
@@ -127,7 +127,7 @@ footer { color: #ffffff;}
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    background-color: #9e6ed8;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -138,7 +138,7 @@ footer { color: #ffffff;}
 .main__content {
     font-size: xx-large;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(to top, #e6e6e6 0%, #ffffff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
