@@ -1,5 +1,5 @@
 /*Lab3*/
-body { background-color: #9e6ed8;
+body { background-color: #44477a;
     color: #ffffff;
 font-family: Arial, Verdana, sans-serif;
 font-size: 12pt;
@@ -82,7 +82,7 @@ footer { color: #ffffff;}
 
 /*Hover*/
 .navbar a:hover, .dropdown.hover .dropbtn {
-    background-color: #e1c9ff;
+    background-color: #9ea0eb;
 }
 
 /*Dropdown content (Hidden by default) */
@@ -98,7 +98,7 @@ footer { color: #ffffff;}
 /*Links inside the dropdown*/
 .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -117,7 +117,7 @@ footer { color: #ffffff;}
 /* The Home Page */
 
 .main {
-    background-color: #9e6ed8;
+    background-color: #44477a;
 }
 
 .main__container {
@@ -127,7 +127,7 @@ footer { color: #ffffff;}
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #9e6ed8;
+    background-color: #44477a;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
