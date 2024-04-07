@@ -11,9 +11,6 @@
 </head>
 
 <header>
-    <form>
-        <input type="button" value="Previous Page" onclick="history.back()">
-    </form>
 </header>
 
 <body>
@@ -21,15 +18,15 @@
         <h1>Let's Talk</h1> <br> 
         <h3>Want to reach out? Fill out the following form and I'll get back to you!</h2>
         <div>
-            <label>Full Name</label>
+            <label>Full Name:</label>
             <input id="name" type="text" required /> 
         </div>
         <div>  
-            <label>Email</label>
+            <label>Email:</label>
             <input type="email" id="email" size="20" required />
         </div>
         <div>
-            <label>Phone Number</label>
+            <label>Phone Number:</label>
             <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
         </div>
 
@@ -47,9 +44,10 @@
             <label>Join my mailing list?</label>
             <input id = mailing type="radio" value="A" name="choice" /> 
         </div>
-        <div>
+        <div class="btnsaction">
             <input type="submit" value="Submit"/>
             <button type="button" onclick="clearForm()">Clear/Reset</button>
+            <input type="button" value="Previous Page" onclick="history.back()">
         </div>
     </form>
 
