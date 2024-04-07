@@ -62,7 +62,7 @@ footer { color: #ffffff;}
 
 /*Creating Navigation Menu*/
 .ddmenu {
-    background-color: #0C2340;
+    background-color: #eaeaea;
     text-align: left;
     display: flex;
     width: 100%;
@@ -82,13 +82,13 @@ footer { color: #ffffff;}
     position: relative;
 }
 .ddmenu ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     transition: all 0.3s;
 }
 .ddmenu ul li a:hover {
-    color:#fb8c8c
+    color:#e84e4e
 }
 .dd-res {
     display: none;
@@ -98,7 +98,7 @@ footer { color: #ffffff;}
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: #44477a;
+    background-color: #a1a6ff;
 }
 .dd-res ul {
     display: block;
@@ -116,7 +116,7 @@ footer { color: #ffffff;}
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: #44477a;
+    background-color: #7e85ff;
 }
 .dd-link ul {
     display: block;
@@ -129,7 +129,7 @@ footer { color: #ffffff;}
 
 .headername {
     font-size: 30px;
-    color: #ffffff;
+    color: #ff0303;
     text-decoration: none;
     font-weight: 700;
 }
