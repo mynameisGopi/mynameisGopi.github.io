@@ -1,14 +1,15 @@
 /*This is the body of the home page and other pages*/
-body { 
-    min-height: 45vh;
-    background: url(images/toronto-night-corner.jpg);
+body{ 
+    display: table;
+    width: 89%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/toronto-night-corner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     color: #ffffff;
 font-family: Arial, Verdana, sans-serif;
 font-size: 12pt;
-text-align: center;
 }
 
 /*This is the header/
@@ -20,13 +21,19 @@ text-align: center;
 h1 {
   color: #fcf7f4;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 48pt;}
+font-size: 48pt;
+text-align: center;}
+
 h2 { color: #e6e4e1;
 font-family: Arial, Helvetica, sans-serif; 
-font-size: 27pt;}
-h4 {color: #000000;
+font-size: 27pt;
+text-align: center;}
+
+h4 {color:#eaeaea;
     font-family: Arial, Helvetica, sans-serif;
-font-size: 18pt;}
+font-size: 18pt;
+margin-top: auto;
+margin-left: 5%;}
 
 a {color: #f9f4fb;
     font-family: Arial, Helvetica, sans-serif;}
@@ -63,6 +70,8 @@ footer { color: #ffffff;}
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ddmenu ul {
     list-style: none;
@@ -120,7 +129,7 @@ footer { color: #ffffff;}
 
 .headername {
     font-size: 30px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 700;
 }
