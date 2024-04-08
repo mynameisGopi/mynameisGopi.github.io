@@ -77,20 +77,25 @@ footer { color: #ffffff;}
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
+    z-index: 1000
 }
 .ddmenu ul {
     list-style: none;
     display: flex;
+    text-align: right;
+    
 }
 .ddmenu ul li {
     padding: 10px 30px;
     position: relative;
+    text-align: left;
 }
 .ddmenu ul li a {
     color: #000000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4em;
     transition: all 0.3s;
+    font-weight: 700;
 }
 .ddmenu ul li a:hover {
     color:#e84e4e
@@ -104,6 +109,7 @@ footer { color: #ffffff;}
     left: 0;
     top: 100%;
     background-color: #a1a6ff;
+    padding: 5px 5px 5px 5px;
 }
 .dd-res ul {
     display: block;
@@ -133,7 +139,7 @@ footer { color: #ffffff;}
 }
 
 .headername {
-    font-size: 30px;
+    font-size: 1.4em;
     color: #000000;
     text-decoration: none;
     font-weight: 700;
