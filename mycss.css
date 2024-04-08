@@ -19,6 +19,7 @@ font-size: 12pt;
 }
 
 
+
 /*Other Body Elements*/
 h1 {
   color: #fcf7f4;
@@ -158,8 +159,8 @@ footer { color: #ffffff;}
     
 }
 .hometext {
-    align-items: center;
-    justify-self: center;
+    align-items: right;
+    justify-self: right;
     margin: 0 auto;
     height: 90vh;
     z-index: 1;
@@ -169,14 +170,13 @@ footer { color: #ffffff;}
     
 }
 
+.homeimg img {
+    width: 10%;
+    border-radius: 15px;
+    text-align: right;
 
-.hometext h1 p {
-    text-align: center;
-    text-indent: 0px;
-    line-height: 1.4;
-    padding: 10 0 10px 0;
-    font-size: xx-large;
 }
+
 
 /* About Me page*/
 #aboutme {
@@ -220,6 +220,7 @@ footer { color: #ffffff;}
     padding: 10 0 10px 0;
 }
 
+/*Change font size*/
 .fontdd button {
     background-color: #fff;
     color: #000000;
