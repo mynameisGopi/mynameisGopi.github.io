@@ -100,7 +100,7 @@ footer { color: #ffffff;}
     min-width: 40em;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
+    padding: 0 7%;
 }
 .ddmenu ul {
     list-style: none;
@@ -109,13 +109,12 @@ footer { color: #ffffff;}
     
 }
 .ddmenu ul li {
-    padding: 10px 30px;
+    padding: 10px 40px;
     position: relative;
     text-align: left;
 }
 .ddmenu ul li a {
     color: #000000;
-    text-decoration: none;
     font-size: 1.4em;
     transition: all 0.3s;
     font-weight: 700;
@@ -139,7 +138,7 @@ footer { color: #ffffff;}
     margin: 10px;
 }
 .dd-res ul li {
-    width: 150px;
+    width: 130px;
     padding: 10px;
     text-align: center;
 }
